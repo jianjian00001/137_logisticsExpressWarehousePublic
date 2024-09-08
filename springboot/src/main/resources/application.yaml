@@ -1,0 +1,25 @@
+server:
+  port: 8088
+spring:
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    default-encoding: UTF-8
+    #发件人
+    username: 931708230@qq.com
+    #授权码
+    password: pwcpllkfdhnubece
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/logisticsexpresswarehouse?characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+#设置日志级别会给root根节点设置，代表整体应用的级别
+logging:
+  level:
+    root: info
