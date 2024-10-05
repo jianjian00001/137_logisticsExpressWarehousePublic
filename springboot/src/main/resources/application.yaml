@@ -6,7 +6,7 @@ spring:
     protocol: smtp
     default-encoding: UTF-8
     #发件人
-    username: 931708230@qq.com
+    username: 1556708905@qq.com
     #授权码
     password: pwcpllkfdhnubece
   datasource:
